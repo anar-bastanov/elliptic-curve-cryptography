@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5fb52866-3561-4f70-8d0a-9a6943860710</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>elliptic_curve_cryptography.py</StartupFile>
+    <StartupFile>src\elliptic_curve_cryptography.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="elliptic_curve_cryptography.py" />
+    <Compile Include="src\elliptic_curve_cryptography.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
